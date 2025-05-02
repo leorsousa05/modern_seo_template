@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'arch/template_seo',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'arch/template_seo' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'league/plates' => array(
+            'pretty_version' => 'v3.6.0',
+            'version' => '3.6.0.0',
+            'reference' => '12ee65166adbc6fb5916fb80b0c0758e49a2d996',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../league/plates',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'mikecao/flight' => array(
+            'pretty_version' => 'v3.15.2',
+            'version' => '3.15.2.0',
+            'reference' => '0abf1b9b169a6d3f1010ab9b1acc0d8fb139be3d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mikecao/flight',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

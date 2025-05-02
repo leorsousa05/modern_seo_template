@@ -1,0 +1,22 @@
+{
+    "name": "arch/template_seo",
+    "autoload": {
+	"psr-4": {
+	    "Arch\\TemplateSeo\\": "src/"
+	}
+    },
+    "scripts": {
+	"serve": "php -S localhost:8080"
+
+    },
+    "authors": [
+	{
+	    "name": "leorsousa05",
+	    "email": "leorsousa05@gmail.com"
+	}
+    ],
+    "require": {
+	"mikecao/flight": "^3.15",
+	"league/plates": "^3.6"
+    }
+}
